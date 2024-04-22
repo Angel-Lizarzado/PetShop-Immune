@@ -519,7 +519,7 @@ section {
 .plan .box-container .box {
     position: relative;
     padding: 2rem;
-    border-radius: .5rem;
+    border-radius: 1rem;
     position: relative;
     margin-bottom: 2rem;
     background: #eee;

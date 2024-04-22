@@ -288,7 +288,7 @@ section {
 }
 
 .home .content .btn {
-    color: rgb(4, 150, 150)marine;
+    color: #fff;
     background-color: rgba(44, 44, 44, 0.5);
     border-color: rgb(4, 150, 150);
 }
@@ -362,29 +362,9 @@ section {
     font-size: 1.6rem;
 }
 
-.dog-food .content .amount,
-.cat-food .content .amount {
-    font-size: 3.5rem;
-    color: #130f40;
-    padding: .5rem 0;
-}
 
-.dog-food .content a img,
-.cat-food .content a img {
-    height: 15rem;
-    margin-top: 1rem;
-}
 
-.dog-food .content a:hover img,
-.cat-food .content a:hover img {
-    -webkit-transform: rotate(15deg);
-    transform: rotate(15deg);
-}
 
-.cat-food {
-    -ms-flex-wrap: wrap-reverse;
-    flex-wrap: wrap-reverse;
-}
 
 .shop .box-container {
     display: -ms-grid;
@@ -504,80 +484,6 @@ section {
     padding: 1rem 0;
 }
 
-.plan .box-container {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap: 1.5rem;
-}
-
-.plan .box-container .box {
-    position: relative;
-    padding: 2rem;
-    border-radius: .5rem;
-    position: relative;
-    margin-bottom: 2rem;
-    background: #eee;
-}
-
-.plan .box-container .box .btn {
-    position: absolute;
-    bottom: -2rem;
-    right: 2rem;
-    background: #fff;
-}
-
-.plan .box-container .box .title {
-    text-align: center;
-    color: rgb(4, 150, 150);
-    font-size: 2rem;
-}
-
-.plan .box-container .box .day {
-    text-align: center;
-    color: #130f40;
-    font-size: 3.5rem;
-}
-
-.plan .box-container .box .icon {
-    color: rgb(4, 150, 150);
-    font-size: 5rem;
-    padding: 2rem 0;
-}
-
-.plan .box-container .box .list {
-    margin: 1rem 0;
-}
-
-.plan .box-container .box .list p {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    font-size: 1.4rem;
-    color: #666;
-    padding: 1rem 0;
-}
-
-.plan .box-container .box .list p span {
-    color: rgb(4, 150, 150);
-}
-
-.plan .box-container .box .amount {
-    font-size: 5rem;
-    font-weight: bolder;
-    color: #130f40;
-}
-
-.plan .box-container .box .amount span {
-    font-size: 3rem;
-}
 
 .contact {
     padding: 2rem 0;

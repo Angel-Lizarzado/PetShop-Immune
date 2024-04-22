@@ -1,41 +1,65 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Petshop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <img src="img/logo.png" alt="">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li>Services</li>
-                <li>Projects</li>
-                <li>About</li>
-            </ul>
+    <header class="header">
+        <a href="#" class="logo active"> <i class="fas fa-paw"></i> shop </a>
+
+        <nav class="navbar">
+            <a href="#home">Inicio</a>
+            <a href="#about">Sobre</a>
+            <a href="#shop">shop</a>
+            <a href="#services">Servicios</a>
+            <a href="#plan">Planos</a>
+            <a href="#contact">Contacto</a>
         </nav>
-        <a href="#" class="btn"><button>Contact</button></a>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+
     </header>
 
-    <section class="index">
-        <img src="img/header.jpg" alt="">
+    <section class="home" id="home">
+        <div class="content">
+            <h3><span>Holaa!</span> Bienvenidos</h3>
+            <a href="#" class="btn">Comprar ahora</a>
+        </div>
+
+        <img src="img/bottom_wave.png" class="wave" alt="" />
     </section>
 
-    <article class="category">
-        <h2>Category</h2>
-        <ul class="cat">
-            <li>Cats</li>
-            <li>Dogs</li>
-            <li>Small Pet</li>
-            <li>Healtcare</li>
-        </ul>
-    </article>
+    <section class="about" id="about">
+        <div class="image">
+            <img src="img/about_img.png" alt="" />
+        </div>
+
+        <div class="content">
+            <h3>Premium <span>Comida para perros</span></h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatum
+                sint, dolore perspiciatis iure consequuntur eligendi quaerat vitae
+                shaikh anas.
+            </p>
+            <a href="#" class="btn">Leer mas</a>
+        </div>
+    </section>
+
+
+    <!-- Seccion de comida para perros y gatos -->
+
+
 </body>
 
 </html>

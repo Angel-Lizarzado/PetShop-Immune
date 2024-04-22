@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
@@ -351,7 +351,7 @@ section {
 
 .dog-food .content h3 span,
 .cat-food .content h3 span {
-    color: rgb(4, 150, 150);
+    color: #0c639c;
 }
 
 .dog-food .content p,
@@ -362,7 +362,29 @@ section {
     font-size: 1.6rem;
 }
 
+.dog-food .content .amount,
+.cat-food .content .amount {
+    font-size: 3.5rem;
+    color: #130f40;
+    padding: .5rem 0;
+}
 
+.dog-food .content a img,
+.cat-food .content a img {
+    height: 15rem;
+    margin-top: 1rem;
+}
+
+.dog-food .content a:hover img,
+.cat-food .content a:hover img {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+}
+
+.cat-food {
+    -ms-flex-wrap: wrap-reverse;
+    flex-wrap: wrap-reverse;
+}
 
 
 
@@ -442,6 +464,7 @@ section {
 .shop .box-container .box .content .amount {
     font-size: 2rem;
     color: rgb(4, 150, 150);
+
 }
 
 .services .box-container {
@@ -450,6 +473,7 @@ section {
     -ms-grid-columns: (minmax(30rem, 1fr))[auto-fit];
     grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
     gap: 1.5rem;
+
 }
 
 .services .box-container .box {
@@ -464,7 +488,7 @@ section {
 }
 
 .services .box-container .box:hover {
-    border-radius: .5rem;
+    border-radius: 2em;
 }
 
 .services .box-container .box i {
